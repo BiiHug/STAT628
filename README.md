@@ -13,8 +13,3 @@ The code folder contains all the codes we used for analysis. For people who're i
 ## image
 
 The image folder contains all the plots in our **final_code**, **slides**, and **notebook**. The name of each img shows its source. 
-
-## equations
-
-The equations folder contains all the equations we used in our analysis, in the form of images.
-
