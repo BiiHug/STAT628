@@ -101,10 +101,10 @@ fat3[86,]; fat3[224,]
 VIF3 <- vif(fat3_lm); VIF3
 
 
-## We use the basic four methods: Mellow's Cp, Adj-R^2, AIC, and BIC to help us narrow our
+## We use the basic four methods: Mallow's Cp, Adj-R^2, AIC, and BIC to help us narrow our
 ##selection:
 
-### Mellow's Cp
+### Mallow's Cp
 lm2=lm(BODYFAT~., data=fat3)
 X = model.matrix(lm2)[,-1]
 Y = fat3[,1]
@@ -143,7 +143,7 @@ confint(bic.base)
 ##based on RMSE.
 
 ### For CV, we try 1000 times for each model. Each time we select 200 observations out of 247 as the
-###train model, and the remaining 47 ones as the test model. Then rebuild the linear regression
+###train dataset, and the remaining 47 ones as the test dataset Then rebuild the linear regression
 ###models using the variables selected by each methods:
 
 n_all <- nrow(fat3)
