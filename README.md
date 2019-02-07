@@ -17,3 +17,7 @@ The image folder contains all the plots in our **final_code**, **slides**, and *
 ## executive summary
 
 The executive summary folder contains an executive Jupyter Notebook summary **summary.ipynb** and a readable pdf summary **summary.pdf**.
+
+## slides
+
+The slides folder contains the slides pdf for our presentation.
