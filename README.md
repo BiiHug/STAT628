@@ -13,3 +13,7 @@ The code folder contains all the codes we used for analysis. For people who're i
 ## image
 
 The image folder contains all the plots in our **final_code**, **slides**, and **notebook**. The name of each img shows its source. 
+
+## executive summary
+
+The executive summary folder contains an executive Jupyter Notebook summary **summary.ipynb** and a readable pdf summary **summary.pdf**.
